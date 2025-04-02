@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Operadores Aritimétrica</h1>
+
+        <script>
+            //criar as variaveis 
+            // texto - STRING
+            //Número inteiro - INT - 10
+            //Número real - FLOAT - 10.3
+            
+            
+
+            var bebidas = parseFloat(prompt("Digite o preço das bebidas"))
+            var proteina = parseFloat(prompt("Digite o preço da proteina"))
+            var graos = parseFloat(prompt("Digite o preço da graos"))
+            var salada = parseFloat(prompt("Digite o preço da salada"))
+
+            var qtdebebidas = parseInt(prompt("Digite a quantidade de bebidas"))
+            var qtdeproteina = parseInt(prompt("Digite a quantidade de proteina"))
+            var qtdegraos = parseInt(prompt("Digite a quantidade de graos"))
+            var qtdesalada = parseInt(prompt("Digite a quantidade de salada"))
+
+            var totalbebidas = qtdebebidas * bebidas
+            var totalproteina = qtdeproteina * proteina
+            var totalgraos = qtdegraos * graos
+            var totalsalada = qtdesalada * salada
+
+           var totalCompra = qtdebebidas + qtdeproteina + qtdegraos + qtdesalada
+
+            //imprimir - CONCATENAR
+            document.write("a quantidade de bebidas é:" + totalbebidas)
+            document.write("<br>")
+            document.write("a quantidade de proteina é:" + totalproteina)
+            document.write("<br>")
+            document.write("a quantidade de graos é:" + totalgraos)
+            document.write("<br>")
+            document.write("a quantidade de salada é:" + totalsalada)
+            document.write("<br>")
+            
+            document.write("O total da compra é R$" + totalCompra)
+
+        </script>
+    </center>
+</body>
+</html>
